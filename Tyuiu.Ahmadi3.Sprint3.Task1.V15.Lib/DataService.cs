@@ -12,7 +12,7 @@ namespace Tyuiu.Ahmadi3.Sprint3.Task3.V2.Lib
             while (i <= stopValue)
             {
                 product *= (value * value + i) + 1;
-                i++;
+                i++;  
             }
 
             return product;
