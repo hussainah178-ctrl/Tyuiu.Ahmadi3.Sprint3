@@ -20,7 +20,7 @@ namespace Tyuiu.Ahmadi3.Sprint3.Task3.V2.Test
             // i=5: (4 + 5) + 1 = 10
             // Product: 6 * 7 * 8 * 9 * 10 = 30240
 
-            double result = ds.GetMultiplySeries(2, 1, 5);
+            double result = ds.GetMultiplySeries(2, 1, 5);  
             double wait = 30240;
             Assert.AreEqual(wait, result);
         }
